@@ -9,4 +9,5 @@ def is_prime(n):
             return False
     return True
 
-print(f"Is 17 prime? {is_prime(17)}")
+num = int(input("Enter a number: "))
+print(f"Is {num} prime? {is_prime(num)}")
